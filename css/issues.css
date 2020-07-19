@@ -8,7 +8,7 @@
 
 @media (max-width: 575.98px) {
   .navbar-brand{font-size: 18px !important;}
-  .navbar-brand p{margin-top: 1.3rem !important;}
+  .navbar-brand img{width: 50px !important; height: 45px !important;}
 }
 
 .navbar .navbar-brand span{color: #1d91bb;}
