@@ -6,12 +6,17 @@
 
 .navbar .navbar-brand p{margin-top: 0.8rem;}
 
+@media (max-width: 556px) {
+  .navbar-brand{font-size: 18px;}
+  .navbar-brand p{margin-top: 1.3rem;}
+}
+
 .navbar .navbar-brand span{color: #1d91bb;}
 
 .navbar .nav-link{
     color: #eee;
-    font-weight: bold; 
-    margin: 0 6px; 
+    font-weight: bold;
+    margin: 0 6px;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -40,7 +45,7 @@
 .section-title:after {
   content: '';
   display: inline-block;
-  height: 1px;  
+  height: 1px;
   position: relative;
   top: -2px;
   vertical-align: middle;

@@ -19,12 +19,17 @@
 
 .navbar .navbar-brand p{margin-top: 0.8rem;}
 
+@media (max-width: 556px) {
+  .navbar-brand{font-size: 18px;}
+  .navbar-brand p{margin-top: 1.3rem;}
+}
+
 .navbar .navbar-brand span{color: #1d91bb;}
 
 .navbar .nav-link{
     color: #eee;
-    font-weight: bold; 
-    margin: 0 6px; 
+    font-weight: bold;
+    margin: 0 6px;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -55,7 +60,7 @@
 .banner h1 span{font-size: 4.2rem;}
 
 .banner a.btn{
-    margin-top: 30px; 
+    margin-top: 30px;
     background: #1d91bb;
     color: #fff;
     text-transform: capitalize;
@@ -91,7 +96,7 @@
 .recent-issues .carousel-caption p{color: #E4E3E5;}
 
 .recent-issues .carousel a.btn{
-    margin-top: 30px; 
+    margin-top: 30px;
     background: #1d91bb;
     color: #fff;
     text-transform: capitalize;
@@ -108,7 +113,7 @@
 
 .reviews .overlay{
     height: 100%;
-    padding: 60px 0;    
+    padding: 60px 0;
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -147,7 +152,7 @@ footer hr{background-color: #aaa;}
 
 footer p{
     margin-left: 100px;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 
 
@@ -166,7 +171,7 @@ footer p{
 .section-title:after {
   content: '';
   display: inline-block;
-  height: 1px;  
+  height: 1px;
   position: relative;
   top: -2px;
   vertical-align: middle;
