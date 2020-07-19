@@ -76,6 +76,10 @@
 
 .recent-issues{padding: 50px 0;}
 
+.recent-issues .carousel-item{
+    height: calc(100vh - 100px);
+}
+
 .recent-issues .carousel-item:after {
     content:"";
     display:block;
@@ -87,10 +91,11 @@
     background:rgba(0,0,0,0.6);
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .recent-issues .carousel-item{
-        height: calc(100vh - 100px);
+        height: calc(100vh /2);
     }
+    .recent-issues .carousel-caption{bottom:  50px!important;}
 }
 
 .recent-issues .carousel-caption{bottom: 150px;}
