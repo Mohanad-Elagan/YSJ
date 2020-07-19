@@ -19,9 +19,9 @@
 
 .navbar .navbar-brand p{margin-top: 0.8rem;}
 
-@media (max-width: 556px) {
-  .navbar-brand{font-size: 18px;}
-  .navbar-brand p{margin-top: 1.3rem;}
+@media (max-width: 575.98px) {
+  .navbar-brand{font-size: 18px !important;}
+  .navbar-brand p{margin-top: 1.3rem !important;}
 }
 
 .navbar .navbar-brand span{color: #1d91bb;}
@@ -58,6 +58,12 @@
 .banner h1{font-size: 3.5rem; color: #1d91bb;}
 
 .banner h1 span{font-size: 4.2rem;}
+
+@media (max-width: 767.98px) {
+  .banner .text{margin-bottom: 60px;}
+  .banner h1{font-size: 2.8rem;}
+  .banner h1 span{font-size: 3rem}
+}
 
 .banner a.btn{
     margin-top: 30px;
