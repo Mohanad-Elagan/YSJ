@@ -100,7 +100,7 @@
     .recent-issues .carousel-item{
         height: calc(100vh /2);
     }
-    .recent-issues .carousel-caption{bottom:  50px!important;}
+    .recent-issues .carousel-caption{bottom:  100px!important;}
 }
 
 .recent-issues .carousel-caption{bottom: 150px;}
