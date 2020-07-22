@@ -70,6 +70,13 @@
   .banner h1 span{font-size: 3rem}
 }
 
+@media (max-width: 390px) {
+  .banner{background-position: 60% 50%;}
+  .banner .text{margin-bottom: 160px; max-width: 73%;}
+  .banner h1{font-size: 2.25rem;}
+  .banner h1 span{font-size: 2.25rem}
+}
+
 .banner a.btn{
     margin-top: 30px;
     background: #1d91bb;
