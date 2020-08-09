@@ -108,8 +108,10 @@
         height: auto;
     }
     .recent-issues .carousel-caption{
-      padding-top: 70px !important;
+      padding-top: 40px !important;
   }
+  .recent-issues .carousel a.btn{margin-top: 10px !important;}
+  .recent-issues .carousel-caption h2{font-size: 1.5rem !important;}
 }
 
 @media (max-width: 400px) {
@@ -117,8 +119,6 @@
       padding-top: 10px !important;
       width: 40% !important;
   }
-  .recent-issues .carousel-caption h2{font-size: 1.5rem !important;}
-  .recent-issues .carousel a.btn{margin-top: 10px !important;}
 }
 
 .recent-issues .carousel-caption{
