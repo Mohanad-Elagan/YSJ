@@ -70,6 +70,8 @@
 
 .issues .card{margin: 30px 0;}
 
+.card-title{text-transform: uppercase;}
+
 /*start footer section*/
 
 footer{padding: 50px 0; background: #0b0b15;}
