@@ -2,9 +2,4 @@
 
 $(function () {
     
-    "use strict";
-
-    //adjust banner height
-    
-    
 });

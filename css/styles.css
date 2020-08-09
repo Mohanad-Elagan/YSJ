@@ -100,19 +100,38 @@
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,.25);
 }
 
 @media (max-width: 992px) {
     .recent-issues .carousel-item{
-        height: calc(100vh /2);
+        height: auto;
     }
-    .recent-issues .carousel-caption{bottom:  100px!important;}
+    .recent-issues .carousel-caption{
+      padding-top: 70px !important;
+  }
 }
 
-.recent-issues .carousel-caption{bottom: 150px;}
+@media (max-width: 400px) {
+  .recent-issues .carousel-caption{
+      padding-top: 10px !important;
+      width: 40% !important;
+  }
+  .recent-issues .carousel-caption h2{font-size: 1.5rem !important;}
+  .recent-issues .carousel a.btn{margin-top: 10px !important;}
+}
 
-.recent-issues .carousel-caption h5{font-size: 3.5rem; text-transform: capitalize;}
+.recent-issues .carousel-caption{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(0,0,0,.3);
+  width: 30%;
+  height: 100% !important;
+  padding-top: 150px;
+}
+
+.recent-issues .carousel-caption h2{font-size: 3.5rem; text-transform: uppercase;}
 
 .recent-issues .carousel-caption p{color: #E4E3E5;}
 
