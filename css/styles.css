@@ -97,6 +97,10 @@
     height: 550px;
 }
 
+.recent-issues .carousel-item:hover .carousel-caption{
+  transform: translateX(0);
+}
+
 .recent-issues .carousel-item:after {
     content:"";
     display:block;
@@ -130,10 +134,13 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background:rgba(0,0,0,.3);
+  background:rgba(0,0,0,.7);
   width: 30%;
   height: 100% !important;
   padding-top: 150px;
+  transform: translateX(-100%);
+  transition: .8s ease-in-out;
+
 }
 
 .recent-issues .carousel-caption h2{font-size: 3.5rem; text-transform: uppercase;}
