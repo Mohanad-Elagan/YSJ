@@ -94,7 +94,7 @@
 .recent-issues{padding: 50px 0;}
 
 .recent-issues .carousel-item{
-    height: calc(100vh - 100px);
+    height: 550px;
 }
 
 .recent-issues .carousel-item:after {
