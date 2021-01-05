@@ -2,7 +2,7 @@
 
 
 
-.navbar .navbar-brand{font-size: 28px; font-weight: bold; color: #888;}
+.navbar .navbar-brand{font-size: 26px; font-weight: bold; color: #888;}
 
 .navbar .navbar-brand p{margin-top: 0.8rem;}
 
@@ -22,13 +22,22 @@
     color: #eee;
     font-weight: bold;
     margin: 0 6px;
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
 {
     color: #1d91bb;
+}
+
+#publish-btn-nav{
+  background: #1d91bb;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 2px;
 }
 
 /*start issues section*/
