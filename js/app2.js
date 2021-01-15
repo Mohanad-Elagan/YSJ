@@ -78,7 +78,7 @@ document.getElementById("submit").addEventListener("click", function(e) {
         },
 
         function complete() {
-          alert("Congratulations! your journal has submitted successfully");
+          alert("Congratulations! your article has submitted successfully");
           document.querySelector(".contact-form").reset();
         }
       );
