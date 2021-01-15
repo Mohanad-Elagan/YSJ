@@ -19,6 +19,7 @@
 		<title>YSJ | Publish</title>
 				<link rel="icon" href="images/page_title.png"/>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
@@ -57,8 +58,64 @@
             </div>
         </nav>
 
+        <!-- start description section -->
+        <section class="description">
+            <div class="container">
+                <h2>The Youth Science Journal is open for submission! </h2>
+                <p>Any High School student or undergraduate is highly encouraged to submit their work onto the journal. We accept submissions on any STEM (Science, Technology, Engineering and Maths) topic that has not been published before. The publishing and editing process is all FREE of charge and will not cost you a penny.</p>
+                <p>Be aware that to make sure all the released articles on the journal is professional, the articles are subjected to editing stages where the editors will proofread your article to help build up your article to the highest quality possible.</p>
+            </div>
+        </section>
+
+        <!--        start features section -->  
+        <section class="features text-center">
+            <div class="container">
+                <h2>Why to write an article?</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.2s">
+                        <i class="fas fa-atom"></i>
+                        <P>Delve deeper into your own STEM field of interest</P>
+                    </div> 
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.3s">
+                        <i class="fas fa-signature"></i>
+                        <P>Gain experience in academic writing</P>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.4s">
+                        <i class="fas fa-clipboard"></i>
+                        <P>Learn the basics of scientific research</P>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.5s">
+                        <i class="fas fa-lightbulb"></i>
+                        <P>Share awareness about your topic</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start criteria section -->
+        <section class="criteria">
+
+            <h3>Criteria <br>For Publication<p><a href="#publish-form">Publish Now</a></p></h3>
+
+            <div class="cri cri1 wow bounceInRight" data-wow-delay="0.2s">
+                1)	Make sure the writing style of your submission is up-to-par and proofread it multiple times.
+            </div>
+
+            <div class="cri cri2 wow bounceInRight" data-wow-delay="0.3s">
+                2)	You are responsible for responding swiftly to comments and edits done by the supervising editors.
+            </div>
+
+            <div class="cri cri3 wow bounceInRight" data-wow-delay="0.4s">
+                3)	The article should be formatted in the YSJ format and follow our guidelines accordingly. Any failure to do so could result in your article being rejected for publication.
+            </div>
+
+            <div class="cri cri4 wow bounceInRight" data-wow-delay="0.5s">
+                4)	The Youth Science Journal does not accept plagiarism in any form and takes it very seriously. If any plagiarism is detected in your submission, strict action shall be taken.
+            </div>
+        </section>
+
         <!--        start contact us section-->
-        <section class="contact-us">
+        <section class="contact-us" id="publish-form">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -116,12 +173,17 @@
             </div>
         </footer>
 
-
+        
 
         <!--        start js files-->
         <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
-        <script src="../js/jquery-3.3.1.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/app2.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/app2.js"></script>
+
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>

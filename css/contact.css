@@ -1,6 +1,6 @@
+html{scroll-behavior: smooth;}
+
 /* start nav bar */
-
-
 
 .navbar .navbar-brand{font-size: 26px; font-weight: bold; color: #888;}
 
@@ -42,7 +42,7 @@
 
 /*start contact section*/
 
-.contact-us{padding: 50px 0;}
+.contact-us{padding: 60px 0;}
 
 .contact-us h2{
     margin-bottom: 30px;
@@ -104,3 +104,76 @@ footer p{
     margin-left: 100px;
     margin-top: -5px;
 }
+
+/********* start publish page *********/
+
+.description{
+    padding: 50px 0;
+}
+
+.description h2{
+    color: #1d91bb;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.criteria{
+    background-color: #1d91bb;
+    padding: 50px 0;
+}
+
+.cri{
+    background: #eee;
+    margin: 15px 0;
+    padding: 15px;
+    width: 80%;
+    border-radius: 25px 0px 0px 25px;
+    margin-left: auto;
+}
+
+.cri1{width: 50%;}
+
+.cri2{width: 60%; padding: 25px 15px;}
+
+.cri3{width: 70%;}
+
+.criteria h3{
+    position: absolute;
+    font-size: 3.55rem;
+    color: #fff;
+    left: 60px;
+    margin-top: 30px;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.criteria h3 a{
+    margin-top: 20px;
+    display: block;
+    font-size: 1.2rem;
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.criteria h3 a:hover{color: #eee;}
+
+/*start features section*/
+
+.features{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.features h2{margin-bottom: 60px; color: #1d91bb;}
+
+.features i.fas{
+    color: #fff;
+    background-color: #1d91bb;
+    border-radius: 50%;
+    width: 60px !important;
+    padding: 12px;
+    font-size: 28px;
+    height: 60px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.features p{font-size: 18px;}
