@@ -12,6 +12,7 @@
         position: relative;
         z-index: 999;
     }
+    #publish-btn-nav{margin-left: 5px !important; text-align: center; width: 80px;}
 }
 
 

@@ -40,6 +40,10 @@ html{scroll-behavior: smooth;}
       margin-top: 2px;
 }
 
+@media (max-width: 991.98px) {
+    #publish-btn-nav{margin-left: 5px !important; text-align: center; width: 80px;}
+}
+
 /*start contact section*/
 
 .contact-us{padding: 60px 0;}

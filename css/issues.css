@@ -40,6 +40,10 @@
     margin-top: 2px;
 }
 
+@media (max-width: 991.98px) {
+  #publish-btn-nav{margin-left: 5px !important; text-align: center; width: 80px;}
+}
+
 /*start issues section*/
 
 .issues{padding: 50px 0;}
