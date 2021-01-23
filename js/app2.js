@@ -37,7 +37,7 @@ function saveContactInfo(name, email, phone, title) {
   newContactInfo.set({
     name: name,
     email: email,
-    phone: phone,
+    Nationality: phone,
     title: title
   });
 }
@@ -78,7 +78,7 @@ document.getElementById("submit").addEventListener("click", function(e) {
         },
 
         function complete() {
-          alert("Congratulations! your article has submitted successfully");
+          alert("Congratulations! Your article is submitted successfully!");
           document.querySelector(".contact-form").reset();
         }
       );

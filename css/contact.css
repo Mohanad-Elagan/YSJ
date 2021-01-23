@@ -192,3 +192,21 @@ footer p{
     margin-bottom: 20px;
 }
 .features p{font-size: 18px;}
+
+.guidelines{
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.guidelines a.btn{
+    background: #327bf2;
+    color: #eee;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: .5s ease-in-out;
+}
+
+.guidelines a.btn:hover{
+    color: #fff;
+    background-color: #117fa7;
+}
