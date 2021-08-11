@@ -1,3 +1,15 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sofia Pro", sans-serif;
+}
+
 /* start nav bar */
 
 .navbar-brand {

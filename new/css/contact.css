@@ -2,6 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sofia Pro", sans-serif;
+}
+
 /* start nav bar */
 
 .navbar-brand {
@@ -299,6 +311,7 @@ footer a:hover {
 .features {
   padding-bottom: 50px;
   padding-top: 50px;
+  background-color: #f2f2f2;
 }
 
 .features .icon-box {
