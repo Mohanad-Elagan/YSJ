@@ -1,5 +1,0 @@
-/*global $, window, console*/
-
-$(function () {
-    
-});
