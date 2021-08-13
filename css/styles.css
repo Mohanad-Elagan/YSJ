@@ -11,6 +11,11 @@ h6 {
 
 /* start nav bar */
 
+.navbar {
+  background-color: #fff !important;
+  z-index: 5555;
+}
+
 .navbar-brand {
   margin-top: 5px;
 }
@@ -20,13 +25,6 @@ h6 {
   font-weight: bold;
   margin: 0 6px;
   font-size: 15px;
-}
-
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #1d91bb;
 }
 
 .pub-btn {
@@ -164,6 +162,11 @@ h6 {
   }
   .feats h4 {
     font-size: 18px !important;
+  }
+  .feat {
+    text-align: center;
+    margin: auto !important;
+    margin-bottom: 25px !important;
   }
 }
 
