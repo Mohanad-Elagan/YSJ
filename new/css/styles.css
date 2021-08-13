@@ -107,6 +107,14 @@ h6 {
   }
 }
 
+.feat-issues a.all {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 13px;
+  margin-top: 175px;
+  display: block;
+}
+
 /* quote section */
 
 .quote {
@@ -202,7 +210,7 @@ h6 {
   border-radius: 15px;
   background-color: #fff;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
   font-size: 32px;
   margin-top: 15px;
   color: #000 !important;
@@ -224,12 +232,13 @@ h6 {
 
 .team h5 {
   font-size: 13px;
-  color: #ccc;
+  color: #bbb;
   text-transform: uppercase;
 }
 
 .team i {
   color: #676767;
+  margin-bottom: 30px;
 }
 
 /*start footer section*/
