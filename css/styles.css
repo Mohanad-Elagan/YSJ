@@ -104,6 +104,9 @@ h6 {
   .feat-issues .img-3 {
     width: 110px !important;
   }
+  .feat-issues a.all {
+    margin-top: 15px !important;
+  }
 }
 
 .feat-issues a.all {
@@ -131,13 +134,14 @@ h6 {
 .quote p {
   font-family: Bely !important;
   font-weight: 900;
+  font-size: 20px;
 }
 
 @media (min-width: 992px) {
   .quote p {
     width: 50%;
     margin: auto;
-    font-size: 35px;
+    font-size: 35px !important;
   }
 }
 .quote span {
